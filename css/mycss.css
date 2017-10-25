@@ -1,0 +1,117 @@
+body{
+	margin: 0 0;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	background-color: #0549AD;
+	background: -webkit-linear-gradient(left top, #182D7C, #486CF9);
+	color: #FFF;
+	overflow: hidden;
+	height: 60px;
+	min-width: 900px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.left {
+	float: left;
+	margin-left: 60px;
+}
+
+.right {
+	float: right;
+	margin: 20px 60px;
+}
+
+.right a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.right a:hover{
+	text-decoration: underline;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 25px;
+}
+.logo p {
+	margin-top: 0.6em;	
+	opacity: 0.8;
+}
+
+.centralize-text {
+	text-align: center;
+}
+
+.welcome-text {
+	display: block;
+	height: 135px;
+	font-size: 65px;
+	color: #595BE7;
+	font-weight: bold;
+	margin-top: 2.0em;
+}
+
+button{
+	display: inline-block;
+	position: relative;
+	border: 1px solid #4446D0;
+	border-radius: 5px;
+	padding: 10px 30px;
+	background-color: #FFF;
+	color: #4446D0;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button:hover{
+	color: #FFF;
+	background-color: #3755DF;
+	border-color: #3755DF;
+}
+
+.input-col {
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #561392;
+}
+
+.selector {
+	background-color: #FFF;
+	padding: 5px 30px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border: 0.5px solid #B0B0B0;
+}
+
+.col-submit-btn{
+	font-size: 12px;
+	padding: 6.5px 10px;
+	margin: 0 10px;
+}
+
+.block {
+	display: inline-block;
+	background-color: #EFECF1;
+	border: 0.5px solid #CDCDCD;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border-radius: 2px;
+}
+
+.container {
+	height: 30px;
+	min-width: 960px;
+}
+
+.padding-btm{
+	width: 100px;
+	height: 100px;
+}
